@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -14,7 +13,7 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export function About() {
+  export function About() {
   return (
     <Container id="about">
       <div className="about-text">
@@ -23,7 +22,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Erick, a Senior Software Engineer with over 9 years of experience building scalable backend systems, data infrastructure, and AIpowered applications across both high-growth startups and enterprise environments. Strong track record in full-stack
+            Hi there! I'm Erick, a Senior Soft ware Engineer with over 9 years of experience building scalable backend systems, data infrastructure, and AIpowered applications across both high-growth startups and enterprise environments. Strong track record in full-stack
             development, RAG/LLM pipelines, and microservice architecture.  
           </p>
         </ScrollAnimation>
@@ -114,11 +113,6 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Erick Melo" />
-        </ScrollAnimation>
       </div>
     </Container>
   )

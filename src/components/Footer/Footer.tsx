@@ -20,41 +20,41 @@ export function Footer() {
         </p>
       </div>
       <div className="social-media">
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/codevinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
-        </a>
+        </a> */}
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/demigods200/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-        <a
+        {/* <a
           href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak+I+found+your+contact+through+portfolio+site.%0A%0A"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-        <a
+          <img src={whatsapp} alt="Whatsapp" /> 
+        </a> */}
+        {/* <a
           href="https://t.me/CodeVinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://www.instagram.com/vinayaksingh.in"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
       </div>
     </Container>
   )
